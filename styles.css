@@ -6,14 +6,60 @@ body {
     box-sizing: border-box;
 }
 
+
+/*
+Centers the main title
+ */
 header {
     display: flex;
     justify-content: center;
     color: mediumvioletred;
 }
 
+
+/*
+Centers the description
+ */
 .main-container {
     display: flex;
     justify-content: center;
+}
+
+
+/*sizing and positioning for
+all calc buttons
+ */
+button {
+    width: 50px;
+    margin: 8px;
+    height: 26.3px;
+}
+
+
+/*
+Modification/sizing and positioning
+of calculator
+ */
+.center-calculator {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*
+positioning of the action buttons
+ */
+.actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+
+/*
+sizing of the actions buttons
+ */
+.button-height{
+    height: 26.3px;
 }
 
