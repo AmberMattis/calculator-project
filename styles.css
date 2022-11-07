@@ -1,0 +1,19 @@
+/***********************************
+Stylesheet for calculator project  *
+ ***********************************/
+
+body {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: mediumvioletred;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
