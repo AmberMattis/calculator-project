@@ -17,6 +17,7 @@
         <!--div containing the calculator buttons -->
         <div class="center-calculator">
             <div>
+                <div class="display"></div>
                 <section class="main-container">
                     <button>On</button>
                     <button>Off</button>
@@ -44,15 +45,17 @@
                 <section class="main-container">
                     <button>0</button>
                     <button>.</button>
-                    <button>=</button>
+                    <button>/</button>
                 </section>
-            </div>
-            <div>
-                <section class="main-container, actions">
+
+                <section class="main-container">
                     <button class="button-height">+</button>
                     <button class="button-height">-</button>
                     <button class="button-height">*</button>
-                    <button class="button-height">/</button>
+                </section>
+
+                <section class="main-container">
+                    <button class="button-height" id="big-button">=</button>
                 </section>
             </div>
         </div>

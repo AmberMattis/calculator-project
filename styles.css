@@ -43,16 +43,15 @@ of calculator
 .center-calculator {
     display: flex;
     justify-content: center;
+
 }
 
 
 /*
 positioning of the action buttons
  */
-.actions{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+#big-button{
+    width: 184px;
 }
 
 
@@ -63,3 +62,10 @@ sizing of the actions buttons
     height: 26.3px;
 }
 
+.display {
+    height: 30px;
+    border-bottom: solid black 1px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    width: 181px;
+    }
